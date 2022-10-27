@@ -27,24 +27,24 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#01 - Redes Sociais" color="#8A2BE2">
-            <Description description="componente simples" fontWeight="900" />
-            <RedesSociais name="douglasabnovato" />
-          </Card>
-          <Card titulo="#02 - Cronômetro" color="#E74C3C">
-            <Description description="componente com estado" fontWeight="900" />
-            <Stateful />
-          </Card>
-          <Card titulo="#03 - To Do List" color="#9B59B6">
-            <Description description="event delegation" fontWeight="900" />
-            <Todolist />
-          </Card>
           <Card titulo="#04 - Plugins" color="#2980B9 ">
             <Description
               description="biblioteca de markdown"
               fontWeight="900"
             />
             <Converter />
+          </Card>
+          <Card titulo="#03 - To Do List" color="#229954">
+            <Description description="event delegation" fontWeight="900" />
+            <Todolist />
+          </Card>
+          <Card titulo="#02 - Cronômetro" color="#E74C3C">
+            <Description description="componente com estado" fontWeight="900" />
+            <Stateful />
+          </Card>
+          <Card titulo="#01 - Redes Sociais" color="#8A2BE2">
+            <Description description="componente simples" fontWeight="900" />
+            <RedesSociais name="douglasabnovato" />
           </Card>
         </div>
       </main>
