@@ -1,4 +1,10 @@
-# Voss Coder
+<h4 align="center"> 
+	🚧 Voss Coder 🚀
+</h4>
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1 do projeto" title="#voss-coder" src="./.github/desktop-1-2.jpg" >
+</p>  
 
 Uma aplicação com funcionalidades demonstrando pílulas de fundamentos em reactjs.
 
@@ -31,3 +37,18 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 - [ ] tarefa
 
+## Versões
+
+- versão 1: desktop - header, main.
+
+<p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-header-1.jpg" width="400px">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-main-1.jpg" width="400px">
+</p>
+
+- versão 1: mobile - header, main.
+
+<p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-1.jpg" height="400px">
+</p>
