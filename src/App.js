@@ -8,6 +8,7 @@ import Converter from "./components/Converter/index";
 import LikeButton from "./components/LikeButton/index";
 import Toolchains from "./components/Toolchains";
 import ListItems from "./components/ListItems";
+import FormatName from "./components/FormatName";
 
 import logo from "./assets/logo.svg";
 import "./styles/App.css";
@@ -31,6 +32,13 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#08 - Formatar Nomes" color="#C0392B">
+            <Description
+              description="Introduzir JSX"
+              fontWeight="900"
+            />
+            <FormatName />
+          </Card>
           <Card titulo="#07 - Inicializar Projeto React" color="#F39C12">
             <Toolchains title="create react app" />
             <ListItems
