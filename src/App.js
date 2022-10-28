@@ -5,6 +5,7 @@ import RedesSociais from "./components/RedesSociais/index";
 import Stateful from "./components/Stateful/index";
 import Todolist from "./components/Todolist/index";
 import Converter from "./components/Converter/index";
+import LikeButton from "./components/LikeButton/index";
 import logo from "./assets/logo.svg";
 import "./styles/App.css";
 
@@ -27,7 +28,14 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#04 - Plugins" color="#2980B9 ">
+          <Card titulo="#05 - Like Buttons" color="#921388">
+            <Description
+              description="Um botão de likes"
+              fontWeight="900"
+            />
+            <LikeButton />
+          </Card>
+          <Card titulo="#04 - Plugins" color="#2980B9">
             <Description
               description="biblioteca de markdown"
               fontWeight="900"

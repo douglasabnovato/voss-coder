@@ -41,7 +41,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 2. Cronômetro
 - [x] 3. Todo List
 - [x] 4. Plugins
-- [ ] 5. Like Buttons
+- [x] 5. Like Buttons
 
 ## Versões
 
