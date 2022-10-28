@@ -31,11 +31,17 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 ### Referências
 
-- [ ] referência
+- [x] [React Home](https://pt-br.reactjs.org/)
+- [x] [React Introdução](https://pt-br.reactjs.org/docs/getting-started.html)
+- [x] [React Adicionar o React a um site](https://pt-br.reactjs.org/docs/add-react-to-a-website.html)
 
 ### Tarefas
 
-- [ ] tarefa
+- [x] 1. Redes Sociais
+- [x] 2. Cronômetro
+- [x] 3. Todo List
+- [x] 4. Plugins
+- [ ] 5. Like Buttons
 
 ## Versões
 
