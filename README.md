@@ -38,6 +38,9 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Instalação - CDN Links](https://pt-br.reactjs.org/docs/cdn-links.html)
 - [x] [React Instalação - Canais de Release](https://pt-br.reactjs.org/docs/release-channels.html)
 - [x] [React Principais Conceitos - 1. Hello World](https://pt-br.reactjs.org/docs/hello-world.html)
+- [x] [React Principais Conceitos - 2. Introduzindo JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html)
+- [x] [React Principais Conceitos - 3. Renderizando Elementos](https://pt-br.reactjs.org/docs/rendering-elements.html)
+- [ ] [React Principais Conceitos - 4. Componentes e Props](https://pt-br.reactjs.org/docs/components-and-props.html)
 
 ### Tarefas
 
@@ -50,6 +53,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 6. Toolchains
 - [x] 7. Inicializar Projeto React
 - [x] 8. Formatar Nome
+- [x] 9. Clock
 
 ## Versões
 

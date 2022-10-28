@@ -9,6 +9,7 @@ import LikeButton from "./components/LikeButton/index";
 import Toolchains from "./components/Toolchains";
 import ListItems from "./components/ListItems";
 import FormatName from "./components/FormatName";
+import Clock from "./components/Clock";
 
 import logo from "./assets/logo.svg";
 import "./styles/App.css";
@@ -32,6 +33,13 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#09 - Renderizando um Elemento no DOM" color="#C0392B">
+            <Description
+              description="Timer"
+              fontWeight="900"
+            />
+            <Clock />
+          </Card>
           <Card titulo="#08 - Formatar Nomes" color="#C0392B">
             <Description
               description="Introduzir JSX"
