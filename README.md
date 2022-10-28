@@ -38,11 +38,13 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 ### Tarefas
 
+- [x] 0. Estrutura com Card e ListItems
 - [x] 1. Redes Sociais
 - [x] 2. Cronômetro
 - [x] 3. Todo List
 - [x] 4. Plugins
 - [x] 5. Like Buttons
+- [x] 6. Toolchains
 
 ## Versões
 

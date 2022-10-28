@@ -6,6 +6,9 @@ import Stateful from "./components/Stateful/index";
 import Todolist from "./components/Todolist/index";
 import Converter from "./components/Converter/index";
 import LikeButton from "./components/LikeButton/index";
+import Toolchains from "./components/Toolchains";
+import ListItems from "./components/ListItems";
+
 import logo from "./assets/logo.svg";
 import "./styles/App.css";
 
@@ -28,6 +31,18 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#06 - Toolchains" color="#F1C40F">
+            <Toolchains />
+            <ListItems
+              item1="create react app"
+              item2="next.js"
+              item3="gatsby"
+              item1Description="para criar um site SPA"
+              item2Description="para criar um site renderizado no servidor (ssr)"
+              item3Description="para site estático orientado a conteúdo"
+              fontWeight="900"
+            />
+          </Card>
           <Card titulo="#05 - Like Buttons" color="#921388">
             <Description
               description="Um botão de likes"

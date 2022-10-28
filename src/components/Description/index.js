@@ -1,6 +1,6 @@
 import React from "react";
 
-class Simple extends React.Component {
+class Description extends React.Component {
   render() {
     const simpleStyle = {
       fontWeight: this.props.fontWeight || "bold",
@@ -17,4 +17,4 @@ class Simple extends React.Component {
   }
 }
 
-export default Simple;
+export default Description;
