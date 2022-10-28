@@ -37,6 +37,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Instalação - Crie um novo React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
 - [x] [React Instalação - CDN Links](https://pt-br.reactjs.org/docs/cdn-links.html)
 - [x] [React Instalação - Canais de Release](https://pt-br.reactjs.org/docs/release-channels.html)
+- [ ] [React Principais Conceitos - 1. Hello World](https://pt-br.reactjs.org/docs/hello-world.html)
 
 ### Tarefas
 
