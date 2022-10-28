@@ -6,7 +6,7 @@ class Toolchains extends React.Component {
     render(){
         return (
             <div>
-                <h3>Ferramentas</h3>
+                <h3>{this.props.title}</h3>
             </div>
         )
     }

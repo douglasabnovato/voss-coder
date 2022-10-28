@@ -31,8 +31,20 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#07 - Inicializar Projeto React" color="#F39C12">
+            <Toolchains title="create react app" />
+            <ListItems
+              item1="npx create-react-app my-app"
+              item2="cd my-app"
+              item3="npm start"
+              item1Description="criar o projeto com a estrutura inicial"
+              item2Description="entrar na pasta do projeto criada"
+              item3Description="iniciar o projeto"
+              fontWeight="900"
+            />
+          </Card>
           <Card titulo="#06 - Toolchains" color="#F1C40F">
-            <Toolchains />
+            <Toolchains title="Ferramentas" />
             <ListItems
               item1="create react app"
               item2="next.js"

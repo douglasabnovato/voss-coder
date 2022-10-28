@@ -32,19 +32,22 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 ### Referências
 
 - [x] [React Home](https://pt-br.reactjs.org/)
-- [x] [React Introdução](https://pt-br.reactjs.org/docs/getting-started.html)
-- [x] [React Adicionar o React a um site](https://pt-br.reactjs.org/docs/add-react-to-a-website.html)
-- [ ] [React Crie um novo React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+- [x] [React Instalação - Introdução](https://pt-br.reactjs.org/docs/getting-started.html)
+- [x] [React Instalação - Adicionar o React a um site](https://pt-br.reactjs.org/docs/add-react-to-a-website.html)
+- [x] [React Instalação - Crie um novo React App](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
+- [x] [React Instalação - CDN Links](https://pt-br.reactjs.org/docs/cdn-links.html)
+- [x] [React Instalação - Canais de Release](https://pt-br.reactjs.org/docs/release-channels.html)
 
 ### Tarefas
 
-- [x] 0. Estrutura com Card e ListItems
+- [x] 0. Estrutura da página com Card e ListItems
 - [x] 1. Redes Sociais
 - [x] 2. Cronômetro
 - [x] 3. Todo List
 - [x] 4. Plugins
 - [x] 5. Like Buttons
 - [x] 6. Toolchains
+- [x] 7. Inicializar Projeto React
 
 ## Versões
 
