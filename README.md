@@ -8,9 +8,26 @@ Uma aplicação com funcionalidades demonstrando pílulas de fundamentos em reac
 - [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 - [React documentation](https://reactjs.org/).
 
+## Planejamento
+
+Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
+
 ### Procedimentos
 
 - criar uma branch para desenvolver as tarefas do dia
 - criar as issues das tarefas com descrição
 - citar as referências consultadas
 - abrir pull request para avaliar na branch main
+
+### Branches
+
+- developer-v1.0
+
+### Referências
+
+- [ ] referência
+
+### Tarefas
+
+- [ ] tarefa
+
