@@ -5,6 +5,12 @@ import RedesSociais from "./components/RedesSociais/index";
 import Stateful from "./components/Stateful/index";
 import Todolist from "./components/Todolist/index";
 import Converter from "./components/Converter/index";
+import LikeButton from "./components/LikeButton/index";
+import Toolchains from "./components/Toolchains";
+import ListItems from "./components/ListItems";
+import FormatName from "./components/FormatName";
+import Clock from "./components/Clock";
+
 import logo from "./assets/logo.svg";
 import "./styles/App.css";
 
@@ -27,7 +33,52 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#04 - Plugins" color="#2980B9 ">
+          <Card titulo="#09 - Renderizando um Elemento no DOM" color="#C0392B">
+            <Description
+              description="Timer"
+              fontWeight="900"
+            />
+            <Clock />
+          </Card>
+          <Card titulo="#08 - Formatar Nomes" color="#C0392B">
+            <Description
+              description="Introduzir JSX"
+              fontWeight="900"
+            />
+            <FormatName />
+          </Card>
+          <Card titulo="#07 - Inicializar Projeto React" color="#F39C12">
+            <Toolchains title="create react app" />
+            <ListItems
+              item1="npx create-react-app my-app"
+              item2="cd my-app"
+              item3="npm start"
+              item1Description="criar o projeto com a estrutura inicial"
+              item2Description="entrar na pasta do projeto criada"
+              item3Description="iniciar o projeto"
+              fontWeight="900"
+            />
+          </Card>
+          <Card titulo="#06 - Toolchains" color="#F1C40F">
+            <Toolchains title="Ferramentas" />
+            <ListItems
+              item1="create react app"
+              item2="next.js"
+              item3="gatsby"
+              item1Description="para criar um site SPA"
+              item2Description="para criar um site renderizado no servidor (ssr)"
+              item3Description="para site estático orientado a conteúdo"
+              fontWeight="900"
+            />
+          </Card>
+          <Card titulo="#05 - Like Buttons" color="#921388">
+            <Description
+              description="Um botão de likes"
+              fontWeight="900"
+            />
+            <LikeButton />
+          </Card>
+          <Card titulo="#04 - Plugins" color="#2980B9">
             <Description
               description="biblioteca de markdown"
               fontWeight="900"
