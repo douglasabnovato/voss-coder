@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#voss-coder" src="./.github/desktop-1-2.jpg" >
+  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-header-1.jpg">
 </p>  
 
 Uma aplicação com funcionalidades demonstrando pílulas de fundamentos em reactjs.
