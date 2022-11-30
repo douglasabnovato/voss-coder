@@ -27,7 +27,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 ### Branches
 
-- developer-v1.0
+- main, developer-v1.0
 
 ### Referências
 
@@ -40,6 +40,14 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 1. Hello World](https://pt-br.reactjs.org/docs/hello-world.html)
 - [x] [React Principais Conceitos - 2. Introduzindo JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html)
 - [x] [React Principais Conceitos - 3. Renderizando Elementos](https://pt-br.reactjs.org/docs/rendering-elements.html)
+  - [ ] [MDN - Uma reintrodução ao JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Language_Overview)
+  - [ ] [MDN - Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  - [ ] [MDN - Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  - [ ] [Javascript](https://javascript.info/)
+  - [ ] [Iniciar com React](https://www.taniarascia.com/getting-started-with-react/)
+  - [ ] [React for Designers](https://reactfordesigners.com/)
+  - [ ] [Modern JavaScript in React Documentation](https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c)
+  - [ ] [React, Rethinking best practices - Pete Hunt](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
 - [ ] [React Principais Conceitos - 4. Componentes e Props](https://pt-br.reactjs.org/docs/components-and-props.html)
 
 ### Tarefas

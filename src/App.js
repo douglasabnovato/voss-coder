@@ -33,7 +33,7 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#09 - Renderizando um Elemento no DOM" color="#C0392B">
+          <Card titulo="#09 - Renderizando um Elemento no DOM" color="#C39BD3">
             <Description
               description="Timer"
               fontWeight="900"
