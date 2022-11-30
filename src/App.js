@@ -13,6 +13,7 @@ import Clock from "./components/Clock";
 
 import logo from "./assets/logo.svg";
 import "./styles/App.css";
+import Details from "./components/Details";
 
 function App() {
   return (
@@ -33,18 +34,18 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#11 - Props" color="#641E16">
+          <Details titulo="Props" detalhes="são somente leitura. Um componente como uma função ou uma classe, nunca deve modificar seus próprios props." />
+          </Card>
+          <Card titulo="#10 - Componentes" color="#A6ACAF">
+            <Details titulo="Components" detalhes="Permitem dividir a UI em partes independentes, reutilizáveis e pensar em cada parte isoladamente." />
+          </Card>
           <Card titulo="#09 - Renderizando um Elemento no DOM" color="#C39BD3">
-            <Description
-              description="Timer"
-              fontWeight="900"
-            />
+            <Description description="Timer" fontWeight="900" />
             <Clock />
           </Card>
           <Card titulo="#08 - Formatar Nomes" color="#C0392B">
-            <Description
-              description="Introduzir JSX"
-              fontWeight="900"
-            />
+            <Description description="Introduzir JSX" fontWeight="900" />
             <FormatName />
           </Card>
           <Card titulo="#07 - Inicializar Projeto React" color="#F39C12">
@@ -72,10 +73,7 @@ function App() {
             />
           </Card>
           <Card titulo="#05 - Like Buttons" color="#921388">
-            <Description
-              description="Um botão de likes"
-              fontWeight="900"
-            />
+            <Description description="Um botão de likes" fontWeight="900" />
             <LikeButton />
           </Card>
           <Card titulo="#04 - Plugins" color="#2980B9">
