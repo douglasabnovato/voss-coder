@@ -31,6 +31,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 ### Referências
 
+- [x] [html color codes](https://htmlcolorcodes.com/)
 - [x] [React Home](https://pt-br.reactjs.org/)
 - [x] [React Instalação - Introdução](https://pt-br.reactjs.org/docs/getting-started.html)
 - [x] [React Instalação - Adicionar o React a um site](https://pt-br.reactjs.org/docs/add-react-to-a-website.html)
@@ -62,8 +63,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 7. Inicializar Projeto React
 - [x] 8. Formatar Nome
 - [x] 9. Clock
-- [x] 10. Componentes
-- [x] 11. Props
+- [x] 10. Componentes e Props
 
 ## Versões
 

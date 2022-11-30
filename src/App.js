@@ -34,11 +34,15 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#11 - Props" color="#641E16">
-          <Details titulo="Props" detalhes="são somente leitura. Um componente como uma função ou uma classe, nunca deve modificar seus próprios props." />
-          </Card>
-          <Card titulo="#10 - Componentes" color="#A6ACAF">
-            <Details titulo="Components" detalhes="Permitem dividir a UI em partes independentes, reutilizáveis e pensar em cada parte isoladamente." />
+          <Card titulo="#10 - Componentes e Props" color="#A6ACAF">
+            <Details
+              titulo="Components"
+              detalhes="Permitem dividir a UI em partes independentes, reutilizáveis e pensar em cada parte isoladamente."
+            />
+            <Details
+              titulo="Props"
+              detalhes="são somente leitura. Um componente como uma função ou uma classe, nunca deve modificar seus próprios props."
+            />
           </Card>
           <Card titulo="#09 - Renderizando um Elemento no DOM" color="#C39BD3">
             <Description description="Timer" fontWeight="900" />
