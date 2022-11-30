@@ -61,6 +61,8 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 7. Inicializar Projeto React
 - [x] 8. Formatar Nome
 - [x] 9. Clock
+- [x] 10. Componentes
+- [x] 11. Props
 
 ## Versões
 
