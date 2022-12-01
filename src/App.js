@@ -39,7 +39,7 @@ function App() {
       <main className="App-Main">
         <div className="Cards">
           <Card titulo="#13 - Listas e Chaves" color="#C39BD3">
-            <KeyLists />
+            <KeyLists numbers={[1, 2, 3, 4, 5, 6]}/>
           </Card>
           <Card titulo="#12 - Renderização condicional" color="#C39BD3">
             <Details
