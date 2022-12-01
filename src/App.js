@@ -17,6 +17,7 @@ import "./styles/App.css";
 import Details from "./components/Details";
 import Toggle from "./components/Toggle";
 import LoginControl from "./components/LoginControl";
+import KeyLists from "./components/KeysLists";
 
 function App() {
   return (
@@ -37,8 +38,11 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#13 - Listas e Chaves" color="#C39BD3">
+            <KeyLists />
+          </Card>
           <Card titulo="#12 - Renderização condicional" color="#C39BD3">
-          <Details
+            <Details
               titulo="Lógica de componentes passando por parâmetro "
               detalhes="Criar elementos representando o estado atual, e deixe o React atualizar a UI para corresponde-los.."
             />

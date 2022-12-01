@@ -53,6 +53,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 6. Manipulando eventos](https://pt-br.reactjs.org/docs/handling-events.html)
 - [x] [Styled Components](https://styled-components.com/)
 - [x] [React Principais Conceitos - 7. Renderização condicional](https://pt-br.reactjs.org/docs/conditional-rendering.html)
+- [ ] [React Principais Conceitos - 8. Listas e Chaves](https://pt-br.reactjs.org/docs/lists-and-keys.html)
 
 ### Tarefas
 
@@ -69,6 +70,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 10. Componentes e Props
 - [x] 11. Toggle + Styled Components
 - [x] 12. LoginControl: Variáveis de Elementos + Evitar renderização
+- [ ] 13. KeyLists
 
 ## Versões
 
