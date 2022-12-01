@@ -1,6 +1,8 @@
 import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 
+import "./index.css"
+
 const Button = styled.button`
   color: ${(props) => props.theme.fg};
   border: 2px solid ${(props) => props.theme.fg};
@@ -17,6 +19,21 @@ const Button = styled.button`
   border-radius: 3px;
 `;
 
+const ButtonHidden = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid #003D6C;
+  color: #003D6C;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  &:hover {
+    background-color: #003D6C;
+    color: white;
+    border: 2px solid #003D6C;
+    cursor: pointer;
+  }
+`
+
 const theme = {
   fg: "palevioletred",
   bg: "white",
@@ -32,7 +49,20 @@ function WarningBanner(props) {
     return null;
   }
 
-  return <div className="warning">Warning!</div>;
+  return (
+    <div style={{
+      background: "#f8f3d6",
+      color: "#967132",
+      marginBottom:"8px"
+    }}>
+      <div class="data">
+        <p class="title">
+          <span>Warning:</span> User action warning
+        </p>
+        <p class="sub">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  );
 }
 
 class Page extends React.Component {
@@ -52,9 +82,9 @@ class Page extends React.Component {
     return (
       <div>
         <WarningBanner warn={this.state.showWarning} />
-        <button onClick={this.handleToggleClick}>
+        <ButtonHidden onClick={this.handleToggleClick}>
           {this.state.showWarning ? "Hide" : "Show"}
-        </button>
+        </ButtonHidden>
       </div>
     );
   }

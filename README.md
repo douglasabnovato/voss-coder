@@ -68,7 +68,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 9. Clock
 - [x] 10. Componentes e Props
 - [x] 11. Toggle + Styled Components
-- [ ] 12. LoginControl: Variáveis de Elementos + Evitar renderização
+- [x] 12. LoginControl: Variáveis de Elementos + Evitar renderização
 
 ## Versões
 
