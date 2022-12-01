@@ -13,7 +13,9 @@ import Clock from "./components/Clock";
 
 import logo from "./assets/logo.svg";
 import "./styles/App.css";
+
 import Details from "./components/Details";
+import Toggle from "./components/Toggle";
 
 function App() {
   return (
@@ -34,6 +36,17 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#11 - Manipulando Eventos" color="#0E6251">
+            <Details
+              titulo="this: "
+              detalhes="Se você esquecer de fazer o bind de this.handleClick e passá-lo para um onClick, o this será undefined quando a função for realmente chamada."
+            />
+            <Details
+              titulo="method: "
+              detalhes="Se você referir a um método sem () depois dele, como onClick={this.handleClick}, você deve fazer o bind manual deste método."
+            />
+            <Toggle />
+          </Card>
           <Card titulo="#10 - Componentes e Props" color="#A6ACAF">
             <Details
               titulo="Components"

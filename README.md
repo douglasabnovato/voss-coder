@@ -50,7 +50,8 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
   - [x] [React, Rethinking best practices - Pete Hunt](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
 - [x] [React Principais Conceitos - 4. Componentes e Props](https://pt-br.reactjs.org/docs/components-and-props.html)
 - [x] [React Principais Conceitos - 5. State e ciclo de vida](https://pt-br.reactjs.org/docs/state-and-lifecycle.html)
-- [ ] [React Principais Conceitos - 6. Manipulando eventos](https://pt-br.reactjs.org/docs/handling-events.html)
+- [x] [React Principais Conceitos - 6. Manipulando eventos](https://pt-br.reactjs.org/docs/handling-events.html)
+- [x] [Styled Components](https://styled-components.com/)
 
 ### Tarefas
 
@@ -65,6 +66,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 8. Formatar Nome
 - [x] 9. Clock
 - [x] 10. Componentes e Props
+- [x] 11. Toggle + Styled Components
 
 ## Versões
 
