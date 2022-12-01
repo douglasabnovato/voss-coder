@@ -16,7 +16,7 @@ import "./styles/App.css";
 
 import Details from "./components/Details";
 import Toggle from "./components/Toggle";
-import Greeting from "./components/Greeting";
+import LoginControl from "./components/LoginControl";
 
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
               titulo="Lógica de componentes passando por parâmetro "
               detalhes="Criar elementos representando o estado atual, e deixe o React atualizar a UI para corresponde-los.."
             />
-            <Greeting isLoggedIn={false} />
+            <LoginControl isLoggedIn={true} />
           </Card>
           <Card titulo="#11 - Manipulando Eventos" color="#0E6251">
             <Details

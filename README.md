@@ -52,7 +52,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 5. State e ciclo de vida](https://pt-br.reactjs.org/docs/state-and-lifecycle.html)
 - [x] [React Principais Conceitos - 6. Manipulando eventos](https://pt-br.reactjs.org/docs/handling-events.html)
 - [x] [Styled Components](https://styled-components.com/)
-- [x] [React Principais Conceitos - 7. Renderização condicional](https://pt-br.reactjs.org/docs/conditional-rendering.html)
+- [ ] [React Principais Conceitos - 7. Renderização condicional](https://pt-br.reactjs.org/docs/conditional-rendering.html)
 
 ### Tarefas
 
@@ -68,7 +68,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 9. Clock
 - [x] 10. Componentes e Props
 - [x] 11. Toggle + Styled Components
-- [ ] 12. Greeting: fazendo Variáveis de Elementos
+- [ ] 12. LoginControl: Variáveis de Elementos + Evitar renderização
 
 ## Versões
 
