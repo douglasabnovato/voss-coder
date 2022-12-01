@@ -39,7 +39,15 @@ function App() {
       <main className="App-Main">
         <div className="Cards">
           <Card titulo="#13 - Listas e Chaves" color="#C39BD3">
-            <KeyLists numbers={[1, 2, 3, 4, 5, 6]}/>
+            <KeyLists numbers={[1, 2, 3, 4, 5, 6]} />
+            <Details
+              titulo="Listas "
+              detalhes="listas de componentes exibidos dinamicamente com o método map"
+            />
+            <Details
+              titulo="Key "
+              detalhes="Quando você não possui nenhum ID estável para os itens renderizados, podemos usar o index do item como chave em último recurso."
+            />
           </Card>
           <Card titulo="#12 - Renderização condicional" color="#C39BD3">
             <Details
