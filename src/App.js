@@ -16,6 +16,7 @@ import "./styles/App.css";
 
 import Details from "./components/Details";
 import Toggle from "./components/Toggle";
+import Greeting from "./components/Greeting";
 
 function App() {
   return (
@@ -36,6 +37,13 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#12 - Renderização condicional" color="#C39BD3">
+          <Details
+              titulo="Lógica de componentes passando por parâmetro "
+              detalhes="Criar elementos representando o estado atual, e deixe o React atualizar a UI para corresponde-los.."
+            />
+            <Greeting isLoggedIn={false} />
+          </Card>
           <Card titulo="#11 - Manipulando Eventos" color="#0E6251">
             <Details
               titulo="this: "
@@ -44,6 +52,10 @@ function App() {
             <Details
               titulo="method: "
               detalhes="Se você referir a um método sem () depois dele, como onClick={this.handleClick}, você deve fazer o bind manual deste método."
+            />
+            <Details
+              titulo="styled-components: "
+              detalhes="estilização do botão."
             />
             <Toggle />
           </Card>
