@@ -40,17 +40,17 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#15 - Elevar state" color="#C39BD3">
+          <Card titulo="#15 - Elevar state" color="#CD6155">
             <TemperatureCalculator celsius={135} />
           </Card>
-          <Card titulo="#14 - Formulário" color="#C39BD3">
+          <Card titulo="#14 - Formulário" color="#566573">
             <Details
               titulo="Formulário "
               detalhes="com componentes controlado e múltiplos inputs é muito importante seu comportamento."
             />
             <FormControlled />
           </Card>
-          <Card titulo="#13 - Listas e Chaves" color="#C39BD3">
+          <Card titulo="#13 - Listas e Chaves" color="#AF7AC5">
             <KeyLists numbers={[1, 2, 3, 4, 5, 6]} />
             <Details
               titulo="Listas "
@@ -61,7 +61,7 @@ function App() {
               detalhes="Quando você não possui nenhum ID estável para os itens renderizados, podemos usar o index do item como chave em último recurso."
             />
           </Card>
-          <Card titulo="#12 - Renderização condicional" color="#C39BD3">
+          <Card titulo="#12 - Renderização condicional" color="#5499C7">
             <Details
               titulo="Lógica de componentes passando por parâmetro "
               detalhes="Criar elementos representando o estado atual, e deixe o React atualizar a UI para corresponde-los.."
@@ -93,7 +93,7 @@ function App() {
               detalhes="são somente leitura. Um componente como uma função ou uma classe, nunca deve modificar seus próprios props."
             />
           </Card>
-          <Card titulo="#09 - Renderizando um Elemento no DOM" color="#C39BD3">
+          <Card titulo="#09 - Renderizando um Elemento no DOM" color="#17A589">
             <Description description="Timer" fontWeight="900" />
             <Clock />
           </Card>
