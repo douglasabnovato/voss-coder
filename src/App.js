@@ -17,7 +17,8 @@ import "./styles/App.css";
 import Details from "./components/Details";
 import Toggle from "./components/Toggle";
 import LoginControl from "./components/LoginControl";
-import KeyLists from "./components/KeysLists";
+import KeyLists from "./components/KeysLists"; 
+import FormControlled from "./components/FormControlled";
 
 function App() {
   return (
@@ -38,6 +39,13 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#14 - Formulário" color="#C39BD3">
+            <Details
+              titulo="Formulário "
+              detalhes="com componentes controlado e múltiplos inputs é muito importante seu comportamento."
+            />
+            <FormControlled />
+          </Card>
           <Card titulo="#13 - Listas e Chaves" color="#C39BD3">
             <KeyLists numbers={[1, 2, 3, 4, 5, 6]} />
             <Details
