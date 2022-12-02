@@ -19,6 +19,7 @@ import Toggle from "./components/Toggle";
 import LoginControl from "./components/LoginControl";
 import KeyLists from "./components/KeysLists"; 
 import FormControlled from "./components/FormControlled";
+import TemperatureCalculator from "./components/TemperatureCalculator";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#15 - Elevar state" color="#C39BD3">
+            <TemperatureCalculator celsius={135} />
+          </Card>
           <Card titulo="#14 - Formulário" color="#C39BD3">
             <Details
               titulo="Formulário "
