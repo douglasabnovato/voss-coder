@@ -55,6 +55,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 7. Renderização condicional](https://pt-br.reactjs.org/docs/conditional-rendering.html)
 - [x] [React Principais Conceitos - 8. Listas e Chaves](https://pt-br.reactjs.org/docs/lists-and-keys.html)
 - [x] [React Principais Conceitos - 9. Formulários](https://pt-br.reactjs.org/docs/forms.html)
+- [ ] [React Principais Conceitos - 9. Elevando o State](https://pt-br.reactjs.org/docs/lifting-state-up.html)
 - [ ] [React Tutorial](https://pt-br.reactjs.org/tutorial/tutorial.html)
 - [ ] [React Blog](https://pt-br.reactjs.org/blog/2021/12/17/react-conf-2021-recap.html)
 - [ ] [React Comunidade](https://pt-br.reactjs.org/community/support.html)
