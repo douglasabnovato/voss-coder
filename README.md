@@ -76,6 +76,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 11. Toggle + Styled Components
 - [x] 12. LoginControl: Variáveis de Elementos + Evitar renderização
 - [x] 13. KeyLists
+- [x] 14. FormControlled
 
 ## Versões
 
