@@ -1,4 +1,17 @@
 import React from "react";
+import styled from "styled-components";
+
+const Input = styled.input`
+  font-size: 18px;
+  padding: 13px;
+  margin: 15px;
+  background: papayawhip;
+  border: none;
+  border-radius: 5px;
+  ::placeholder {
+    color: palevioletred;
+  }
+`;
 
 const scaleNames = {
   c: "Celsius",
@@ -46,7 +59,7 @@ class TemperatureInput extends React.Component {
     return (
       <fieldset>
         <legend>Enter temperature in {scaleNames[scale]}:</legend>
-        <input value={temperature} onChange={this.handleChange} />
+        <Input value={temperature} onChange={this.handleChange} />
       </fieldset>
     );
   }
@@ -82,7 +95,7 @@ class Calculator extends React.Component {
           scale="c"
           temperature={celsius}
           onTemperatureChange={this.handleCelsiusChange}
-        />
+        /> 
         <TemperatureInput
           scale="f"
           temperature={fahrenheit}
