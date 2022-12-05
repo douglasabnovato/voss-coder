@@ -27,10 +27,11 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 ### Branches
 
-- developer-v1.0
+- main, developer-v1.0
 
 ### Referências
 
+- [x] [html color codes](https://htmlcolorcodes.com/)
 - [x] [React Home](https://pt-br.reactjs.org/)
 - [x] [React Instalação - Introdução](https://pt-br.reactjs.org/docs/getting-started.html)
 - [x] [React Instalação - Adicionar o React a um site](https://pt-br.reactjs.org/docs/add-react-to-a-website.html)
@@ -40,7 +41,24 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 1. Hello World](https://pt-br.reactjs.org/docs/hello-world.html)
 - [x] [React Principais Conceitos - 2. Introduzindo JSX](https://pt-br.reactjs.org/docs/introducing-jsx.html)
 - [x] [React Principais Conceitos - 3. Renderizando Elementos](https://pt-br.reactjs.org/docs/rendering-elements.html)
-- [ ] [React Principais Conceitos - 4. Componentes e Props](https://pt-br.reactjs.org/docs/components-and-props.html)
+  - [x] [MDN - Uma reintrodução ao JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Language_Overview)
+  - [x] [MDN - Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+  - [x] [The Modern JavaScript Tutorial](https://javascript.info/)
+  - [x] [React Tutorial: An Overview and Walkthrough](https://www.taniarascia.com/getting-started-with-react/)
+  - [x] [React for Designers](https://reactfordesigners.com/)
+  - [x] [Modern JavaScript in React Documentation](https://gist.github.com/gaearon/683e676101005de0add59e8bb345340c)
+  - [x] [React, Rethinking best practices - Pete Hunt](https://www.youtube.com/watch?v=x7cQ3mrcKaY)
+- [x] [React Principais Conceitos - 4. Componentes e Props](https://pt-br.reactjs.org/docs/components-and-props.html)
+- [x] [React Principais Conceitos - 5. State e ciclo de vida](https://pt-br.reactjs.org/docs/state-and-lifecycle.html)
+- [x] [React Principais Conceitos - 6. Manipulando eventos](https://pt-br.reactjs.org/docs/handling-events.html)
+  - [x] [Styled Components](https://styled-components.com/)
+- [x] [React Principais Conceitos - 7. Renderização condicional](https://pt-br.reactjs.org/docs/conditional-rendering.html)
+- [x] [React Principais Conceitos - 8. Listas e Chaves](https://pt-br.reactjs.org/docs/lists-and-keys.html)
+- [x] [React Principais Conceitos - 9. Formulários](https://pt-br.reactjs.org/docs/forms.html)
+- [ ] [React Principais Conceitos - 10. Elevando o State - muito importante](https://pt-br.reactjs.org/docs/lifting-state-up.html)
+- [ ] [React Tutorial](https://pt-br.reactjs.org/tutorial/tutorial.html)
+- [ ] [React Blog](https://pt-br.reactjs.org/blog/2021/12/17/react-conf-2021-recap.html)
+- [ ] [React Comunidade](https://pt-br.reactjs.org/community/support.html)
 
 ### Tarefas
 
@@ -54,6 +72,12 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 7. Inicializar Projeto React
 - [x] 8. Formatar Nome
 - [x] 9. Clock
+- [x] 10. Componentes e Props
+- [x] 11. Toggle + Styled Components
+- [x] 12. LoginControl: Variáveis de Elementos + Evitar renderização
+- [x] 13. KeyLists
+- [x] 14. FormControlled
+- [x] 15. TemperatureCalculator - muito importante
 
 ## Versões
 
