@@ -40,10 +40,22 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#17 - MockUp" color="#3498DB"> 
+            <Details
+              titulo="React "
+              detalhes="o principal modo de se construir aplicações Web grandes e rápidas com JavaScript"
+            />
+          </Card>
+          <Card titulo="#16 - Message" color="#F4D03F"> 
+            <Details
+              titulo="Componsição "
+              detalhes="ao invés de herança para reutilizar código entre componentes."
+            />
+          </Card>
           <Card titulo="#15 - Elevar state" color="#CD6155">
             <Details
               titulo="Elevar state "
-              detalhes="Com frequência, a modificação de um dado tem que ser refletida em vários componentes. Recomendamos elevar o state compartilhado ao elemento pai comum mais próximo. "
+              detalhes=" m dado tem que ser refletida em vários componentes. Recomendamos elevar o state compartilhado ao elemento pai comum mais próximo. "
             />
             <TemperatureCalculator celsius={135} />
           </Card>

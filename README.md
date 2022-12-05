@@ -80,6 +80,9 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 13. KeyLists
 - [x] 14. FormControlled
 - [x] 15. TemperatureCalculator - muito importante
+- [ ] 16. Message 
+- [ ] 17. MockUp 
+- [ ] 18. Tornar uma página com rota de 0 a 17. Fazer o mesmo para os próximos temas. 
 
 ## Versões
 
