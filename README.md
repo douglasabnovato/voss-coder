@@ -56,6 +56,8 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 8. Listas e Chaves](https://pt-br.reactjs.org/docs/lists-and-keys.html)
 - [x] [React Principais Conceitos - 9. Formulários](https://pt-br.reactjs.org/docs/forms.html)
 - [x] [React Principais Conceitos - 10. Elevar o State - muito importante](https://pt-br.reactjs.org/docs/lifting-state-up.html)
+- [ ] [React Principais Conceitos - 11. Composição vs Herança](https://pt-br.reactjs.org/docs/composition-vs-inheritance.html)
+- [ ] [React Principais Conceitos - 12. Pensando do jeito React](https://pt-br.reactjs.org/docs/thinking-in-react.html)
 - [ ] [React Tutorial](https://pt-br.reactjs.org/tutorial/tutorial.html)
 - [ ] [React Blog](https://pt-br.reactjs.org/blog/2021/12/17/react-conf-2021-recap.html)
 - [ ] [React Comunidade](https://pt-br.reactjs.org/community/support.html)
