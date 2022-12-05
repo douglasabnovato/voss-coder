@@ -3,8 +3,9 @@ import styled from "styled-components";
 
 const Input = styled.input`
   font-size: 18px;
-  padding: 13px;
-  margin: 15px;
+  padding: 10px;
+  margin: 5px;
+  width: 16.5vw;
   background: papayawhip;
   border: none;
   border-radius: 5px;
@@ -38,9 +39,29 @@ function tryConvert(temperature, convert) {
 
 function BoilingVerdict(props) {
   if (props.celsius >= 100) {
-    return <p>The water would boil.</p>;
+    return (
+      <div
+        style={{
+          background: "#f8f3d6",
+          color: "#967132",
+          marginTop:"5px"
+        }}
+      >
+        The water would boil.
+      </div>
+    );
   }
-  return <p>The water would not boil.</p>;
+  return (
+    <div
+      style={{
+        background: "#f8f3d6",
+        color: "#967132",
+        marginTop:"5px"
+      }}
+    >
+      The water would not boil.
+    </div>
+  );
 }
 
 class TemperatureInput extends React.Component {
@@ -91,16 +112,18 @@ class Calculator extends React.Component {
 
     return (
       <div>
-        <TemperatureInput
-          scale="c"
-          temperature={celsius}
-          onTemperatureChange={this.handleCelsiusChange}
-        /> 
-        <TemperatureInput
-          scale="f"
-          temperature={fahrenheit}
-          onTemperatureChange={this.handleFahrenheitChange}
-        />
+        <div style={{ display: "flex" }}>
+          <TemperatureInput
+            scale="c"
+            temperature={celsius}
+            onTemperatureChange={this.handleCelsiusChange}
+          />
+          <TemperatureInput
+            scale="f"
+            temperature={fahrenheit}
+            onTemperatureChange={this.handleFahrenheitChange}
+          />
+        </div>
         <BoilingVerdict celsius={parseFloat(celsius)} />
       </div>
     );

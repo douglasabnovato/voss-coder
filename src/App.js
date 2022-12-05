@@ -17,7 +17,7 @@ import "./styles/App.css";
 import Details from "./components/Details";
 import Toggle from "./components/Toggle";
 import LoginControl from "./components/LoginControl";
-import KeyLists from "./components/KeysLists"; 
+import KeyLists from "./components/KeysLists";
 import FormControlled from "./components/FormControlled";
 import TemperatureCalculator from "./components/TemperatureCalculator";
 
@@ -41,6 +41,10 @@ function App() {
       <main className="App-Main">
         <div className="Cards">
           <Card titulo="#15 - Elevar state" color="#CD6155">
+            <Details
+              titulo="Elevar state "
+              detalhes="Com frequência, a modificação de um dado tem que ser refletida em vários componentes. Recomendamos elevar o state compartilhado ao elemento pai comum mais próximo. "
+            />
             <TemperatureCalculator celsius={135} />
           </Card>
           <Card titulo="#14 - Formulário" color="#566573">
