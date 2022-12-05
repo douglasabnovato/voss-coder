@@ -77,7 +77,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 12. LoginControl: Variáveis de Elementos + Evitar renderização
 - [x] 13. KeyLists
 - [x] 14. FormControlled
-- [x] 15. TemperatureCalculator - muito importante
+- [ ] 15. TemperatureCalculator - muito importante
 
 ## Versões
 
