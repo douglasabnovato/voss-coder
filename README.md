@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-header-1.jpg">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-main-2.jpg">
 </p>  
 
 Uma aplicação com funcionalidades demonstrando pílulas de fundamentos em reactjs.
@@ -90,6 +90,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 <p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
   <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-header-1.jpg" width="400px">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-main-2.jpg" width="400px">
   <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-main-1.jpg" width="400px">
 </p>
 
@@ -98,4 +99,5 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 <p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-1.jpg" height="400px">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-2.jpg" height="400px">
 </p>
