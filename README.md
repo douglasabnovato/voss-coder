@@ -57,7 +57,9 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 9. Formulários](https://pt-br.reactjs.org/docs/forms.html)
 - [x] [React Principais Conceitos - 10. Elevar o State - muito importante](https://pt-br.reactjs.org/docs/lifting-state-up.html)
 - [x] [React Principais Conceitos - 11. Composição vs Herança](https://pt-br.reactjs.org/docs/composition-vs-inheritance.html)
-- [x] [React Principais Conceitos - 12. Pensando do jeito React](https://pt-br.reactjs.org/docs/thinking-in-react.html)
+- [x] [React Principais Conceitos - 12. Pensando do jeito React](https://pt-br.reactjs.org/docs/thinking-in-react.html) 
+- [ ] [React Router](https://www.w3schools.com/react/react_router.asp)
+- [ ] [Nav Menu Estilizar]( )
 
 ### Tarefas da Documentação
 
