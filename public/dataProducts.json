@@ -1,0 +1,58 @@
+{
+  "dataProducts": [
+    {
+      "category": "Computer Goods",
+      "price": "$49.99",
+      "stocked": true,
+      "name": "Phone"
+    },
+    {
+      "category": "Computer Goods",
+      "price": "$9.99",
+      "stocked": true,
+      "name": "Hd SSD"
+    },
+    {
+      "category": "Computer Goods",
+      "price": "$29.99",
+      "stocked": false,
+      "name": "Notebook"
+    },
+    {
+      "category": "Sporting Goods",
+      "price": "$49.99",
+      "stocked": true,
+      "name": "Football"
+    },
+    {
+      "category": "Sporting Goods",
+      "price": "$9.99",
+      "stocked": true,
+      "name": "Baseball"
+    },
+    {
+      "category": "Sporting Goods",
+      "price": "$29.99",
+      "stocked": false,
+      "name": "Basketball"
+    },
+    {
+      "category": "Electronics",
+      "price": "$99.99",
+      "stocked": true,
+      "name": "iPod Touch"
+    },
+    {
+      "category": "Electronics",
+      "price": "$399.99",
+      "stocked": false,
+      "name": "iPhone XS"
+    },
+    {
+      "category": "Electronics",
+      "price": "$199.99",
+      "stocked": true,
+      "name": "iPhone XII"
+    }
+  ]
+}

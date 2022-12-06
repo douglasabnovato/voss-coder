@@ -10,16 +10,17 @@ import Toolchains from "./components/Toolchains";
 import ListItems from "./components/ListItems";
 import FormatName from "./components/FormatName";
 import Clock from "./components/Clock";
-
-import logo from "./assets/logo.svg";
-import "./styles/App.css";
-
 import Details from "./components/Details";
 import Toggle from "./components/Toggle";
 import LoginControl from "./components/LoginControl";
-import KeyLists from "./components/KeysLists"; 
+import KeyLists from "./components/KeysLists";
 import FormControlled from "./components/FormControlled";
 import TemperatureCalculator from "./components/TemperatureCalculator";
+import Message from "./components/Message";
+import MockUp from "./components/MockUp";
+
+import logo from "./assets/logo.svg";
+import "./styles/App.css";
 
 function App() {
   return (
@@ -40,7 +41,29 @@ function App() {
       </header>
       <main className="App-Main">
         <div className="Cards">
+          <Card titulo="#17 - MockUp" color="#3498DB"> 
+            <Details
+              titulo="React "
+              detalhes="o principal modo de se construir aplicações Web grandes e rápidas com JavaScript. Nesse Mock nós iremos ensinar o processo mental envolvido na construção de uma tabela de produtos buscáveis utilizando o React."
+            />
+            <MockUp />
+          </Card>
+          <Card titulo="#16 - Message" color="#F4D03F"> 
+            <Details
+              titulo="Componsição "
+              detalhes="ao invés de herança para reutilizar código entre componentes."
+            />
+            <Details
+              titulo="Prop children"
+              detalhes=" é recomendada para esses componentes para passar os elementos filhos diretos para sua respectiva saída."
+            />
+            <Message />
+          </Card>
           <Card titulo="#15 - Elevar state" color="#CD6155">
+            <Details
+              titulo="Elevar state "
+              detalhes=" m dado tem que ser refletida em vários componentes. Recomendamos elevar o state compartilhado ao elemento pai comum mais próximo. "
+            />
             <TemperatureCalculator celsius={135} />
           </Card>
           <Card titulo="#14 - Formulário" color="#566573">
