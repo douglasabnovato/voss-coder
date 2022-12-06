@@ -29,7 +29,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 - main, developer-v1.0
 
-### Referências
+### Referências da Documentação
 
 - [x] [html color codes](https://htmlcolorcodes.com/)
 - [x] [React Home](https://pt-br.reactjs.org/)
@@ -58,11 +58,8 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 10. Elevar o State - muito importante](https://pt-br.reactjs.org/docs/lifting-state-up.html)
 - [x] [React Principais Conceitos - 11. Composição vs Herança](https://pt-br.reactjs.org/docs/composition-vs-inheritance.html)
 - [x] [React Principais Conceitos - 12. Pensando do jeito React](https://pt-br.reactjs.org/docs/thinking-in-react.html)
-- [ ] [React Tutorial](https://pt-br.reactjs.org/tutorial/tutorial.html)
-- [ ] [React Blog](https://pt-br.reactjs.org/blog/2021/12/17/react-conf-2021-recap.html)
-- [ ] [React Comunidade](https://pt-br.reactjs.org/community/support.html)
 
-### Tarefas
+### Tarefas da Documentação
 
 - [x] 0. Estrutura da página com Card e ListItems
 - [x] 1. Redes Sociais
@@ -101,4 +98,82 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-1.jpg" height="400px">
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-3.jpg" height="400px">
+</p>
+
+### Branches
+
+- developer-v2.0
+
+### Referências do Tutorial
+
+- [ ] [React Tutorial](https://pt-br.reactjs.org/tutorial/tutorial.html)
+
+### Tarefas do Tutorial
+
+- [ ] 0. tarefa
+
+## Versões
+
+- versão 2: desktop - header, main.
+
+<p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-header-1.jpg" width="400px">
+</p>
+
+- versão 2: mobile - header, main.
+
+<p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
+</p>
+
+### Branches
+
+- developer-v3.0
+
+### Referências do Blog
+
+- [ ] [React Blog](https://pt-br.reactjs.org/blog/2021/12/17/react-conf-2021-recap.html)
+
+### Tarefas do Blog
+
+- [ ] 0. tarefa
+
+## Versões
+
+- versão 3: desktop - header, main.
+
+<p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-header-1.jpg" width="400px">
+</p>
+
+- versão 3: mobile - header, main.
+
+<p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
+</p>
+
+### Branches
+
+- developer-v4.0
+
+### Referências do Comunidade
+
+- [ ] [React Comunidade](https://pt-br.reactjs.org/community/support.html)
+
+### Tarefas do Comunidade
+
+- [ ] 0. tarefa
+
+## Versões
+
+- versão 4: desktop - header, main.
+
+<p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/desktop-header-1.jpg" width="400px">
+</p>
+
+- versão 4: mobile - header, main.
+
+<p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
 </p>

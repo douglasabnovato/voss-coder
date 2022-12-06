@@ -10,10 +10,6 @@ import Toolchains from "./components/Toolchains";
 import ListItems from "./components/ListItems";
 import FormatName from "./components/FormatName";
 import Clock from "./components/Clock";
-
-import logo from "./assets/logo.svg";
-import "./styles/App.css";
-
 import Details from "./components/Details";
 import Toggle from "./components/Toggle";
 import LoginControl from "./components/LoginControl";
@@ -22,6 +18,9 @@ import FormControlled from "./components/FormControlled";
 import TemperatureCalculator from "./components/TemperatureCalculator";
 import Message from "./components/Message";
 import MockUp from "./components/MockUp";
+
+import logo from "./assets/logo.svg";
+import "./styles/App.css";
 
 function App() {
   return (
