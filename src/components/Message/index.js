@@ -7,7 +7,7 @@ const TitleDialog = styled.h1`
   font-family: sans-serif;
 `;
 
-const MessageDialog = styled.h1`
+const MessageDialog = styled.p`
   font-size: larger;
 `; 
 
@@ -19,13 +19,25 @@ function FancyBorder(props) {
   );
 }
 
-function WelcomeDialog() {
-  return (
-    <FancyBorder color="blue">
-      <TitleDialog>Bem-vindo</TitleDialog>
-      <MessageDialog>Obrigado por visitar a nossa espaçonave!</MessageDialog>
-    </FancyBorder>
-  );
-}
+function Dialog(props) {
+    return (
+      <FancyBorder color="blue">
+        <TitleDialog>
+          {props.title}
+        </TitleDialog>
+        <MessageDialog>
+          {props.message}
+        </MessageDialog>
+      </FancyBorder>
+    );
+  }
+  
+  function WelcomeDialog() {
+    return (
+      <Dialog
+        title="Bem-vindo"
+        message="Obrigado por visitar a nossa espaçonave!" />
+    );
+  }
 
 export default WelcomeDialog;
