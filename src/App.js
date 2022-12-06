@@ -20,6 +20,7 @@ import LoginControl from "./components/LoginControl";
 import KeyLists from "./components/KeysLists";
 import FormControlled from "./components/FormControlled";
 import TemperatureCalculator from "./components/TemperatureCalculator";
+import Message from "./components/Message";
 
 function App() {
   return (
@@ -51,6 +52,11 @@ function App() {
               titulo="Componsição "
               detalhes="ao invés de herança para reutilizar código entre componentes."
             />
+            <Details
+              titulo="Prop children"
+              detalhes=" é recomendada para esses componentes para passar os elementos filhos diretos para sua respectiva saída."
+            />
+            <Message />
           </Card>
           <Card titulo="#15 - Elevar state" color="#CD6155">
             <Details
