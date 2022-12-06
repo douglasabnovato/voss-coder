@@ -80,7 +80,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 16. Message 
 - [x] 17. MockUp - muito importante
 - [ ] 18. Tornar uma página com rota de 0 a 17. Fazer o mesmo para os próximos 
-- [ ] 19. Estilizar os componentes com styled components
+- [x] 19. Estilizar os componentes com styled components
 
 ### Versões
 

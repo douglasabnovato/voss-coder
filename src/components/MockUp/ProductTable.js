@@ -1,6 +1,38 @@
 import React from "react";
+import styled from "styled-components";
 import ProductCategoryRow from "./ProductCategoryRow";
 import ProductRow from "./ProductRow";
+
+const StyledTable = styled.table`
+  cursor: pointer;
+  caption-side: top;
+  border: none;
+  border-collapse: collapse;
+  caption-side: top;
+  td,
+  th {
+    border: none;
+  }
+  td {
+    padding: 5px 10px;
+  }
+  tbody tr {
+    :nth-of-type(odd) {
+      background-color: #efefef;
+    }
+    :hover {
+      background-color: lightpink;
+    }
+  }
+  thead > tr {
+    background-color: #c2c2c2;
+  }
+  caption {
+    font-size: 0.9em;
+    padding: 5px;
+    font-weight: bold;
+  }
+`;
 
 class ProductTable extends React.Component {
   render() {
@@ -30,7 +62,8 @@ class ProductTable extends React.Component {
     });
 
     return (
-      <table>
+      <StyledTable>
+        <caption>Products my store</caption>
         <thead>
           <tr>
             <th>Name</th>
@@ -38,7 +71,7 @@ class ProductTable extends React.Component {
           </tr>
         </thead>
         <tbody>{rows}</tbody>
-      </table>
+      </StyledTable>
     );
   }
 }

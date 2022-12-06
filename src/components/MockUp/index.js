@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import FilterableProductTable from "./FilterableProductTable";
 
+
+
 function MockUp() {
   const [products, setProducts] = useState([]);
 
