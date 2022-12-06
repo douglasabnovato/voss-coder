@@ -1,6 +1,24 @@
 {
   "dataProducts": [
     {
+      "category": "Computer Goods",
+      "price": "$49.99",
+      "stocked": true,
+      "name": "Phone"
+    },
+    {
+      "category": "Computer Goods",
+      "price": "$9.99",
+      "stocked": true,
+      "name": "Hd SSD"
+    },
+    {
+      "category": "Computer Goods",
+      "price": "$29.99",
+      "stocked": false,
+      "name": "Notebook"
+    },
+    {
       "category": "Sporting Goods",
       "price": "$49.99",
       "stocked": true,
@@ -28,13 +46,13 @@
       "category": "Electronics",
       "price": "$399.99",
       "stocked": false,
-      "name": "iPhone 5"
+      "name": "iPhone XS"
     },
     {
       "category": "Electronics",
       "price": "$199.99",
       "stocked": true,
-      "name": "Nexus 7"
+      "name": "iPhone XII"
     }
   ]
 }
