@@ -99,5 +99,5 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 <p align="left" style="display: flex; align-items: flex-start; justify-content: left;">
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-1.jpg" height="400px">
-  <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-2.jpg" height="400px">
+  <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-3.jpg" height="400px">
 </p>
