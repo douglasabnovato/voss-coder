@@ -21,6 +21,7 @@ import KeyLists from "./components/KeysLists";
 import FormControlled from "./components/FormControlled";
 import TemperatureCalculator from "./components/TemperatureCalculator";
 import Message from "./components/Message";
+import MockUp from "./components/MockUp";
 
 function App() {
   return (
@@ -44,8 +45,9 @@ function App() {
           <Card titulo="#17 - MockUp" color="#3498DB"> 
             <Details
               titulo="React "
-              detalhes="o principal modo de se construir aplicações Web grandes e rápidas com JavaScript"
+              detalhes="o principal modo de se construir aplicações Web grandes e rápidas com JavaScript. Nesse Mock nós iremos ensinar o processo mental envolvido na construção de uma tabela de produtos buscáveis utilizando o React."
             />
+            <MockUp />
           </Card>
           <Card titulo="#16 - Message" color="#F4D03F"> 
             <Details
