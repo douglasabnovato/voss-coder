@@ -25,7 +25,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - citar as referências consultadas
 - abrir pull request para avaliar na branch main
 
-### Branches
+## Branches
 
 - main, developer-v1.0
 
@@ -82,7 +82,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [ ] 18. Tornar uma página com rota de 0 a 17. Fazer o mesmo para os próximos 
 - [ ] 19. Estilizar os componentes com styled components
 
-## Versões
+### Versões
 
 - versão 1: desktop - header, main.
 
@@ -100,7 +100,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-main-3.jpg" height="400px">
 </p>
 
-### Branches
+## Branches
 
 - developer-v2.0
 
@@ -112,7 +112,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 - [ ] 0. tarefa
 
-## Versões
+### Versões
 
 - versão 2: desktop - header, main.
 
@@ -126,7 +126,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
 </p>
 
-### Branches
+## Branches
 
 - developer-v3.0
 
@@ -138,7 +138,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 - [ ] 0. tarefa
 
-## Versões
+### Versões
 
 - versão 3: desktop - header, main.
 
@@ -152,7 +152,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
   <img alt="voss-coder" title="#voss-coder" src="./.github/mobile-header-1.jpg" height="400px">
 </p>
 
-### Branches
+## Branches
 
 - developer-v4.0
 
@@ -164,7 +164,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 
 - [ ] 0. tarefa
 
-## Versões
+### Versões
 
 - versão 4: desktop - header, main.
 
