@@ -26,7 +26,7 @@ function Routes() {
         </a>
       </header>
       <nav class="navbar">
-        <Link class="active" to="/">
+        <Link to="/">
           Documentação
         </Link>
         <Link to="/tutorial">Tutorial</Link>
