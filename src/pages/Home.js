@@ -1,4 +1,3 @@
-import Simple from "../components/Simple/index";
 import Card from "../components/Card/index";
 import Description from "../components/Description/index";
 import RedesSociais from "../components/RedesSociais/index";
@@ -19,26 +18,9 @@ import TemperatureCalculator from "../components/TemperatureCalculator";
 import Message from "../components/Message";
 import MockUp from "../components/MockUp";
 
-import logo from "../assets/logo.svg";
-import "../styles/App.css";
-
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <Simple name="Douglas Antonio Braga Novato" />
-        </p>
-        <a
-          className="App-link"
-          href="https://linktr.ee/douglasabnovato"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @douglasabnovato
-        </a>
-      </header>
+    <div className="App"> 
       <main className="App-Main">
         <div className="Cards">
           <Card titulo="#17 - MockUp" color="#3498DB"> 
