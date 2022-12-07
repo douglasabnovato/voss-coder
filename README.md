@@ -70,6 +70,9 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 ### Tarefas da Documentação
 
 - [x] 0. Estrutura da página com Card e ListItems
+- [x] 0.1. Tornar uma página com rota de 0 a 17. Fazer o mesmo para os próximos 
+- [x] 0.2. Estilizar os componentes com styled components
+- [x] 0.3. Estilizar o menu de navegação das rotas
 - [x] 1. Redes Sociais
 - [x] 2. Cronômetro
 - [x] 3. Todo List
@@ -87,9 +90,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 15. TemperatureCalculator - muito importante
 - [x] 16. Message 
 - [x] 17. MockUp - muito importante
-- [x] 18. Tornar uma página com rota de 0 a 17. Fazer o mesmo para os próximos 
-- [x] 19. Estilizar os componentes com styled components
-- [x] 20. Estilizar o menu de navegação das rotas
+- [ ] 18. Hooks - muito importante
 
 ### Versões
 
