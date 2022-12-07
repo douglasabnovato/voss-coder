@@ -60,6 +60,12 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 12. Pensando do jeito React](https://pt-br.reactjs.org/docs/thinking-in-react.html) 
 - [x] [React Router](https://www.w3schools.com/react/react_router.asp)
 - [x] [Nav Menu Estilizar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+- [ ] [React Guias Avançadas](https://pt-br.reactjs.org/docs/accessibility.html)
+- [ ] [React Referência da API](https://pt-br.reactjs.org/docs/react-api.html)
+- [ ] [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+- [ ] [React Testando](https://pt-br.reactjs.org/docs/testing.html)
+- [ ] [React Como Contribuir](https://pt-br.reactjs.org/docs/how-to-contribute.html)
+- [ ] [React FAQ](https://pt-br.reactjs.org/docs/faq-ajax.html)
 
 ### Tarefas da Documentação
 
