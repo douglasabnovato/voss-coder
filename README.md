@@ -58,8 +58,8 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] [React Principais Conceitos - 10. Elevar o State - muito importante](https://pt-br.reactjs.org/docs/lifting-state-up.html)
 - [x] [React Principais Conceitos - 11. Composição vs Herança](https://pt-br.reactjs.org/docs/composition-vs-inheritance.html)
 - [x] [React Principais Conceitos - 12. Pensando do jeito React](https://pt-br.reactjs.org/docs/thinking-in-react.html) 
-- [ ] [React Router](https://www.w3schools.com/react/react_router.asp)
-- [ ] [Nav Menu Estilizar]( )
+- [x] [React Router](https://www.w3schools.com/react/react_router.asp)
+- [x] [Nav Menu Estilizar](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
 ### Tarefas da Documentação
 
@@ -83,7 +83,7 @@ Vamos registrar a maneira como estamos fazendo as coisas nesse projeto.
 - [x] 17. MockUp - muito importante
 - [x] 18. Tornar uma página com rota de 0 a 17. Fazer o mesmo para os próximos 
 - [x] 19. Estilizar os componentes com styled components
-- [ ] 20. Estilizar o menu de navegação das rotas
+- [x] 20. Estilizar o menu de navegação das rotas
 
 ### Versões
 
