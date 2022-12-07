@@ -20,17 +20,17 @@ import MockUp from "../components/MockUp";
 
 function Home() {
   return (
-    <div className="App"> 
+    <div className="App">
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#17 - MockUp" color="#3498DB"> 
+          <Card titulo="#17 - MockUp" color="#3498DB">
             <Details
               titulo="React "
               detalhes="o principal modo de se construir aplicações Web grandes e rápidas com JavaScript. Nesse Mock nós iremos ensinar o processo mental envolvido na construção de uma tabela de produtos buscáveis utilizando o React."
             />
             <MockUp />
           </Card>
-          <Card titulo="#16 - Message" color="#F4D03F"> 
+          <Card titulo="#16 - Message" color="#F4D03F">
             <Details
               titulo="Componsição "
               detalhes="ao invés de herança para reutilizar código entre componentes."
