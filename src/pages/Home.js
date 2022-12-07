@@ -17,20 +17,33 @@ import FormControlled from "../components/FormControlled";
 import TemperatureCalculator from "../components/TemperatureCalculator";
 import Message from "../components/Message";
 import MockUp from "../components/MockUp";
+import Hooks from "../components/Hooks";
 
 function Home() {
   return (
-    <div className="App"> 
+    <div className="App">
+      <h1>Documentação - Instalação + Principais Conceitos + Hooks</h1>
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#17 - MockUp" color="#3498DB"> 
+          <Card titulo="#18 - Hooks" color="#3498DB">
+            <Details
+              titulo="Componente funcional "
+              detalhes="que proveem uma API mais direta para os conceitos de React que você já conhece: props, state, context, refs e ciclo de vida."
+            />
+            <Details
+              titulo="Hooks "
+              detalhes="permitem reutilizar lógica com estado sem mudar sua hierarquia de componentes."
+            />
+            <Hooks />
+          </Card>
+          <Card titulo="#17 - MockUp" color="#3498DB">
             <Details
               titulo="React "
               detalhes="o principal modo de se construir aplicações Web grandes e rápidas com JavaScript. Nesse Mock nós iremos ensinar o processo mental envolvido na construção de uma tabela de produtos buscáveis utilizando o React."
             />
             <MockUp />
           </Card>
-          <Card titulo="#16 - Message" color="#F4D03F"> 
+          <Card titulo="#16 - Message" color="#F4D03F">
             <Details
               titulo="Componsição "
               detalhes="ao invés de herança para reutilizar código entre componentes."
