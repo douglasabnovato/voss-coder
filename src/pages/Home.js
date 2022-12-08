@@ -16,26 +16,14 @@ import KeyLists from "../components/KeysLists";
 import FormControlled from "../components/FormControlled";
 import TemperatureCalculator from "../components/TemperatureCalculator";
 import Message from "../components/Message";
-import MockUp from "../components/MockUp";
-import Hooks from "../components/Hooks";
+import MockUp from "../components/MockUp"; 
 
 function Home() {
   return (
     <div className="App">
-      <h1>Documentação - Instalação + Principais Conceitos + Hooks</h1>
+      <h1>Documentação - Instalação + Principais Conceitos</h1>
       <main className="App-Main">
         <div className="Cards">
-          <Card titulo="#18 - Hooks" color="#1E8449">
-            <Details
-              titulo="Componente funcional "
-              detalhes="que proveem uma API mais direta para os conceitos de React que você já conhece: props, state, context, refs e ciclo de vida."
-            />
-            <Details
-              titulo="Hooks "
-              detalhes="permitem reutilizar lógica com estado sem mudar sua hierarquia de componentes."
-            />
-            <Hooks />
-          </Card>
           <Card titulo="#17 - MockUp" color="#3498DB">
             <Details
               titulo="React "
